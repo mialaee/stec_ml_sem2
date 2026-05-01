@@ -39,16 +39,16 @@ The main aims were to:
 
 # Data
 
-The raw data files are not included in this repository unless explicitly permitted by the data owner or assessment instructions.
+The raw data files are not included in this repository because they were provided for assessment use and may be too large or restricted.
 
-To run the notebook, place the following files in a folder called `data/`:
+To run the notebook, users should create a folder called `data/` in the same directory as `final_stec.ipynb` and place the following files inside it:
 
-14-18kmerdata.txt
-19kmerdata.txt
-14-18metadata
-19metadata
+- `14-18kmerdata.txt`
+- `19kmerdata.txt`
+- `14-18metadata`
+- `19metadata`
 
-The training data contain isolates from 2014–2018, while the independent test data contain isolates from 2019. This year-based split was retained to assess whether models trained on earlier isolates could generalise to a later year.
+The notebook expects these exact filenames. If the files are stored somewhere else, the file paths in the loading section of the notebook must be updated.
 
 # Main Notebook
 
