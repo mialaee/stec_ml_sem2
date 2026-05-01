@@ -41,7 +41,7 @@ The main aims were to:
 
 The raw data files are not included in this repository because they were provided for assessment use and may be too large or restricted.
 
-To run the notebook, users should create a folder called `data/` in the same directory as `final_stec.ipynb` and place the following files inside it:
+To run the notebook, users should create a folder called `data/` in the same directory as `stec_notebook.ipynb` and place the following files inside it:
 
 - `14-18kmerdata.txt`
 - `19kmerdata.txt`
