@@ -54,7 +54,7 @@ The training data contain isolates from 2014–2018, while the independent test 
 
 The full analysis is contained in:
 
-final_stec.ipynb
+stec_notebook.ipynb
 
 The notebook performs the following steps:
 
